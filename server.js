@@ -37,6 +37,24 @@ app.get("/users", (req, res) => {
   });
 });
 
+app.get("/users/employed", (req, res) => {
+  USERS.find({ job: { $ne: null } }).toArray((error, foundUsers) => {
+    if (error) {
+      res.status(500).send(error);
+    }
+    res.render("employed", { userList: foundUsers });
+  });
+});
+
+app.get("/users/available", (req, res) => {
+  USERS.find({ job: null }).toArray((error, foundUsers) => {
+    if (error) {
+      res.status(500).send(error);
+    }
+    res.render("available", { userList: foundUsers });
+  });
+});
+
 app.get("/users/:id", (req, res) => {
   let userId = parseInt(req.params.id);
   USERS.findOne({ id: userId }, (error, foundUser) => {
