@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+h1 {
+  flex: 1 100%;
+}
+
+h2 {
+  color: #2f79d5;
+}
+
+h4 {
+  color: #282a2c;
+}
+
+.userLink {
+  flex: 1 25%;
+}
+
+.userBlock {
+  border: 2px solid #e4e4e4;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.available {
+  color: #e06769;
+}

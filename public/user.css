@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.picAndLabels {
+  margin: 1rem;
+}
+
+.labels {
+  text-align: right;
+}
+
+.avatarPic {
+  border: 2px solid #e4e4e4;
+  border-radius: 100%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+h1 {
+  flex: 1 100%;
+}
+
+.basicInfo {
+  padding-bottom: 2.35rem;
+}
+
+.basicInfo h4 {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.available {
+  color: #df605f;
+}
+
+.addAndEmploy {
+  display: flex;
+}
+
+.emailAndPhone {
+  flex: 1 100%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/main.css">
+    <title>User Directory</title>
+</head>
+
+<body>
+    <h1>User Directory</h1>
+    {{#userList}}
+        <a class="userLink" href="./users/{{id}}">
+        <div class="userBlock">
+          <div class="avatarWrapper">
+            <img class="avatarPic" src={{avatar}} alt=name + " Profile Pic">
+          </div>
+          <h2 class="name">{{name}}</h2>
+          {{#job}}
+            <h4 class="jobInfo">{{job}}, {{company}}</h4>
+          {{/job}}
+          {{^job}}
+            <h4 class="available">Available for hire</h4>
+          {{/job}}
+        </div> </a>
+    {{/userList}}
+</body>
+
+</html>
