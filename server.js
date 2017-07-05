@@ -55,13 +55,35 @@ app.get("/users/available", (req, res) => {
   });
 });
 
-app.get("/users/:id", (req, res) => {
+app.get("/users/profile/:id", (req, res) => {
   let userId = parseInt(req.params.id);
   USERS.findOne({ id: userId }, (error, foundUser) => {
     if (error) {
       res.status(500).send(error);
     }
     res.render("user", { user: foundUser });
+  });
+});
+
+app.get("/users/country/:country", (req, res) => {
+  let userCountry = req.params.country;
+  USERS.find({
+    "address.country": userCountry
+  }).toArray((error, foundUsers) => {
+    if (error) {
+      res.status(500).send(error);
+    }
+    res.render("country", { country: userCountry, userList: foundUsers });
+  });
+});
+
+app.get("/users/skill/:skill", (req, res) => {
+  let userSkill = req.params.skill;
+  USERS.find({ skills: userSkill }).toArray((error, foundUsers) => {
+    if (error) {
+      res.status(500).send(error);
+    }
+    res.render("skill", { skill: userSkill, userList: foundUsers });
   });
 });
 

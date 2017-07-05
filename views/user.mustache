@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div class="profileNavLink">
+      <a href="/users">Return To All Users</a>
+    </div>
     {{#user}}
     <div class="picAndLabels">
         <div class="avatarWrapper">
@@ -27,7 +30,7 @@
         <h1>{{name}}</h1>
         <div class="addAndEmploy">
         {{#address}}
-          <h4 class="leftInfo">{{#city}} {{city}}, {{/city}} {{country}} |&nbsp;</h4>
+          <h4 class="leftInfo">{{#city}} {{city}}, {{/city}} <a href="/users/country/{{country}}">{{country}}</a> |&nbsp;</h4>
         {{/address}}
         {{#job}}
           <h4 class="rightInfo"> {{job}}, {{company}}</h4>
@@ -43,7 +46,7 @@
           <h4 class="edu">{{university}}</h4>
         {{/university}}
         {{#skills}}
-          <h4 class="skills">{{.}}</h4>
+          <a href="/users/skill/{{.}}"><h4 class="skills">{{.}}</h4></a>
         {{/skills}}
       </div>
     </div>

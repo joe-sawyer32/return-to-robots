@@ -32,6 +32,7 @@ h4 {
 
 .userLink {
   flex: 1 25%;
+  max-width: 25%;
 }
 
 .userBlock {
