@@ -1,6 +1,4 @@
-module.exports = {
-  users: [
-    {
+{
       id: 1,
       username: "hjuza0",
       name: "Hamlen Juza",
@@ -20,7 +18,7 @@ module.exports = {
         postal_code: "188950",
         country: "Russia"
       }
-    },
+    }
     {
       id: 2,
       username: "dodda1",
@@ -40,7 +38,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 3,
       username: "ctimmes2",
@@ -60,7 +58,7 @@ module.exports = {
         postal_code: null,
         country: "Philippines"
       }
-    },
+    }
     {
       id: 4,
       username: "mblooman3",
@@ -80,7 +78,7 @@ module.exports = {
         postal_code: null,
         country: "Libya"
       }
-    },
+    }
     {
       id: 5,
       username: "eeyden4",
@@ -101,7 +99,7 @@ module.exports = {
         postal_code: null,
         country: "Indonesia"
       }
-    },
+    }
     {
       id: 6,
       username: "dzarfati5",
@@ -122,7 +120,7 @@ module.exports = {
         postal_code: null,
         country: "Sweden"
       }
-    },
+    }
     {
       id: 7,
       username: "sbroadwell6",
@@ -143,7 +141,7 @@ module.exports = {
         postal_code: null,
         country: "Tanzania"
       }
-    },
+    }
     {
       id: 8,
       username: "rgueny7",
@@ -163,7 +161,7 @@ module.exports = {
         postal_code: "9404",
         country: "Belgium"
       }
-    },
+    }
     {
       id: 9,
       username: "hallabush8",
@@ -184,7 +182,7 @@ module.exports = {
         postal_code: null,
         country: "Botswana"
       }
-    },
+    }
     {
       id: 10,
       username: "dfitzjohn9",
@@ -204,7 +202,7 @@ module.exports = {
         postal_code: null,
         country: "Canada"
       }
-    },
+    }
     {
       id: 11,
       username: "lartera",
@@ -229,7 +227,7 @@ module.exports = {
         postal_code: "94726 CEDEX",
         country: "France"
       }
-    },
+    }
     {
       id: 12,
       username: "mlunnb",
@@ -250,7 +248,7 @@ module.exports = {
         postal_code: "7400-014",
         country: "Portugal"
       }
-    },
+    }
     {
       id: 13,
       username: "swatmanc",
@@ -271,7 +269,7 @@ module.exports = {
         postal_code: null,
         country: "Canada"
       }
-    },
+    }
     {
       id: 14,
       username: "pmaxwelld",
@@ -292,7 +290,7 @@ module.exports = {
         postal_code: null,
         country: "Armenia"
       }
-    },
+    }
     {
       id: 15,
       username: "asauntere",
@@ -312,7 +310,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 16,
       username: "akauschkef",
@@ -333,7 +331,7 @@ module.exports = {
         postal_code: null,
         country: "Guinea"
       }
-    },
+    }
     {
       id: 17,
       username: "kpaddong",
@@ -353,7 +351,7 @@ module.exports = {
         postal_code: null,
         country: "Ukraine"
       }
-    },
+    }
     {
       id: 18,
       username: "jrenforthh",
@@ -373,7 +371,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 19,
       username: "aguildfordi",
@@ -394,7 +392,7 @@ module.exports = {
         postal_code: null,
         country: "Namibia"
       }
-    },
+    }
     {
       id: 20,
       username: "jneavesj",
@@ -415,7 +413,7 @@ module.exports = {
         postal_code: null,
         country: "Philippines"
       }
-    },
+    }
     {
       id: 21,
       username: "hyoodallk",
@@ -436,7 +434,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 22,
       username: "tprobbinl",
@@ -457,7 +455,7 @@ module.exports = {
         postal_code: null,
         country: "Ghana"
       }
-    },
+    }
     {
       id: 23,
       username: "vstockingsm",
@@ -478,7 +476,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 24,
       username: "jmolesn",
@@ -499,7 +497,7 @@ module.exports = {
         postal_code: null,
         country: "Liberia"
       }
-    },
+    }
     {
       id: 25,
       username: "paskeyo",
@@ -519,7 +517,7 @@ module.exports = {
         postal_code: null,
         country: "Indonesia"
       }
-    },
+    }
     {
       id: 26,
       username: "ckrusep",
@@ -539,7 +537,7 @@ module.exports = {
         postal_code: null,
         country: "Serbia"
       }
-    },
+    }
     {
       id: 27,
       username: "oschoberq",
@@ -559,7 +557,7 @@ module.exports = {
         postal_code: "83722",
         country: "United States"
       }
-    },
+    }
     {
       id: 28,
       username: "mgeorgotr",
@@ -580,7 +578,7 @@ module.exports = {
         postal_code: "75062",
         country: "United States"
       }
-    },
+    }
     {
       id: 29,
       username: "pmartineks",
@@ -601,7 +599,7 @@ module.exports = {
         postal_code: null,
         country: "Saudi Arabia"
       }
-    },
+    }
     {
       id: 30,
       username: "bkeart",
@@ -621,7 +619,7 @@ module.exports = {
         postal_code: null,
         country: "Iceland"
       }
-    },
+    }
     {
       id: 31,
       username: "dwonhamu",
@@ -642,7 +640,7 @@ module.exports = {
         postal_code: "143912",
         country: "Russia"
       }
-    },
+    }
     {
       id: 32,
       username: "eoliffev",
@@ -662,7 +660,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 33,
       username: "vbarnetw",
@@ -683,7 +681,7 @@ module.exports = {
         postal_code: null,
         country: "Iran"
       }
-    },
+    }
     {
       id: 34,
       username: "jblackettx",
@@ -703,7 +701,7 @@ module.exports = {
         postal_code: "06-102",
         country: "Poland"
       }
-    },
+    }
     {
       id: 35,
       username: "croffy",
@@ -724,7 +722,7 @@ module.exports = {
         postal_code: null,
         country: "Brazil"
       }
-    },
+    }
     {
       id: 36,
       username: "nridderz",
@@ -745,7 +743,7 @@ module.exports = {
         postal_code: null,
         country: "Czech Republic"
       }
-    },
+    }
     {
       id: 37,
       username: "lison10",
@@ -765,7 +763,7 @@ module.exports = {
         postal_code: null,
         country: "Indonesia"
       }
-    },
+    }
     {
       id: 38,
       username: "bangless11",
@@ -786,7 +784,7 @@ module.exports = {
         postal_code: null,
         country: "Russia"
       }
-    },
+    }
     {
       id: 39,
       username: "lscapelhorn12",
@@ -807,7 +805,7 @@ module.exports = {
         postal_code: null,
         country: "El Salvador"
       }
-    },
+    }
     {
       id: 40,
       username: "mklimko13",
@@ -827,7 +825,7 @@ module.exports = {
         postal_code: null,
         country: "Brazil"
       }
-    },
+    }
     {
       id: 41,
       username: "rthomkins14",
@@ -848,7 +846,7 @@ module.exports = {
         postal_code: "47707",
         country: "Mexico"
       }
-    },
+    }
     {
       id: 42,
       username: "vlampaert15",
@@ -872,7 +870,7 @@ module.exports = {
         postal_code: null,
         country: "Yemen"
       }
-    },
+    }
     {
       id: 43,
       username: "jbarns16",
@@ -893,7 +891,7 @@ module.exports = {
         postal_code: "5224",
         country: "Netherlands"
       }
-    },
+    }
     {
       id: 44,
       username: "osuddards17",
@@ -913,7 +911,7 @@ module.exports = {
         postal_code: "3300-405",
         country: "Portugal"
       }
-    },
+    }
     {
       id: 45,
       username: "cconley18",
@@ -934,7 +932,7 @@ module.exports = {
         postal_code: "407-0176",
         country: "Japan"
       }
-    },
+    }
     {
       id: 46,
       username: "achauvey19",
@@ -954,7 +952,7 @@ module.exports = {
         postal_code: null,
         country: "China"
       }
-    },
+    }
     {
       id: 47,
       username: "melder1a",
@@ -975,7 +973,7 @@ module.exports = {
         postal_code: "38009 CEDEX 1",
         country: "France"
       }
-    },
+    }
     {
       id: 48,
       username: "jdrew1b",
@@ -996,7 +994,7 @@ module.exports = {
         postal_code: "446168",
         country: "Russia"
       }
-    },
+    }
     {
       id: 49,
       username: "mde1c",
@@ -1016,7 +1014,7 @@ module.exports = {
         postal_code: null,
         country: "Indonesia"
       }
-    },
+    }
     {
       id: 50,
       username: "ogilyatt1d",
@@ -1038,5 +1036,4 @@ module.exports = {
         country: "United States"
       }
     }
-  ]
-};
+  
